@@ -1,15 +1,8 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Aug 16 23:04:43 2024
-
-@author: ayagad
-"""
 import pandas as pd
 import numpy as np
 import pickle
 import streamlit as st
-loaded_model=pickle.load(open('/Users/ayagad/Hotel_canceling/trained_model.sav','rb'))
+loaded_model=pickle.load(open('/Users/doaahazem/Hotel_canceling/trained_model.sav','rb'))
 
 st.title('Hotel Booking Cancelation Prediction')
 st.info('A Web app About Hotel Booking Cancelation')
